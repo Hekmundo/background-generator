@@ -79,13 +79,8 @@ function copyCss(event) {
 
 
 color1.addEventListener("input", setGradient);
-
 color2.addEventListener("input", setGradient);
-
 directionButton.addEventListener("click", changeDirection);
-
 randomButton.addEventListener("click", setRandomGradient);
-
 css.addEventListener("copy", copyCss);
-
 setGradient();
